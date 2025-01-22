@@ -45,3 +45,22 @@ LibraryManagementSystem/
 │   └── BookFactory.cs
 └── Program.cs
 ```
+
+## Class Descriptions
+
+### Models
+- `Book.cs` - Base class for books with basic properties like title, author, ISBN
+- `EBook.cs` - Derived class that extends Book with additional file size property
+
+### Interfaces
+- `ILibrary.cs` - Defines core operations for the library system
+
+### Services
+- `Library.cs` - Implements ILibrary interface with book management operations
+- `LibraryManager.cs` - Singleton class that manages the library operations
+
+### Factory
+- `BookFactory.cs` - Factory class for creating Book and EBook objects
+
+### Root
+- `Program.cs` - Main entry point with console UI implementation
