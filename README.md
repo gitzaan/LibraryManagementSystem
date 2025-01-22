@@ -31,6 +31,7 @@ A simple console-based library management system implemented in C# that demonstr
 
 ## Project Structure
 
+'''
 LibraryManagementSystem/
 ├── Models/
 │   ├── Book.cs
@@ -43,3 +44,4 @@ LibraryManagementSystem/
 ├── Factory/
 │   └── BookFactory.cs
 └── Program.cs
+'''
